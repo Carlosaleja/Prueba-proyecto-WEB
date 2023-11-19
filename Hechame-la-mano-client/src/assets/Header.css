@@ -1,0 +1,640 @@
+.header {
+    height: 144px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.header .logo {
+    height: 144px;
+    left: 14px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 141px;
+}
+
+.header .text-wrapper {
+    color: #113946;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 170px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 57px;
+    width: 229px;
+}
+
+.header .nav {
+    left: 745px;
+    position: absolute;
+    top: 54px;
+    width: 720px;
+}
+
+.header .inicio {
+    position: absolute;
+}
+
+.header .div {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 49px;
+}
+
+.header .home {
+    position: absolute;
+}
+
+.header .text-wrapper-2 {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.5px;
+    position: relative;
+    width: fit-content;
+}
+
+.header .formas-de-ayuda {
+    position: absolute;
+}
+
+.header .text-wrapper-3 {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -2px;
+    position: relative;
+    width: fit-content;
+}
+
+.header .conocenos {
+    position: absolute;
+}
+
+.header .solicitudes {
+    position: absolute;
+}
+
+.header .participa {
+    position: absolute;
+}
+
+.header .variant-4 {
+    height: 33px;
+    overflow: hidden;
+}
+
+.header .variant-2 {
+    height: 44px;
+}
+
+.header .variant-3 {
+    height: 33px;
+}
+
+.header .variant-5 {
+    height: 33px;
+    overflow: hidden;
+}
+
+.header .variant-6 {
+    height: 33px;
+    overflow: hidden;
+}
+
+.header .variant-7 {
+    height: 33px;
+    overflow: hidden;
+}
+
+.header .default {
+    height: 33px;
+}
+
+.header .nav.variant-4 .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.variant-2 .inicio {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 0;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.variant-3 .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.variant-5 .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.variant-6 .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.variant-7 .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.default .inicio {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 50px;
+}
+
+.header .nav.variant-4 .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.variant-2 .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.variant-3 .home {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    height: 39px;
+    justify-content: center;
+    left: 74px;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.variant-5 .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.variant-6 .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.variant-7 .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.default .home {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 60px;
+}
+
+.header .nav.variant-4 .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.variant-2 .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.variant-3 .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.variant-5 .formas-de-ayuda {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 279px;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.variant-6 .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.variant-7 .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.default .formas-de-ayuda {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 289px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 154px;
+}
+
+.header .nav.variant-4 .conocenos {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 158px;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.variant-2 .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.variant-3 .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.variant-5 .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.variant-6 .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.variant-7 .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.default .conocenos {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 97px;
+}
+
+.header .nav.variant-4 .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.variant-2 .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.variant-3 .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.variant-5 .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.variant-6 .solicitudes {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 457px;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.variant-7 .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.default .solicitudes {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 99px;
+}
+
+.header .nav.variant-4 .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
+
+.header .nav.variant-2 .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
+
+.header .nav.variant-3 .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
+
+.header .nav.variant-5 .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
+
+.header .nav.variant-6 .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
+
+.header .nav.variant-7 .participa {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #000000;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 580px;
+    padding: 10px;
+    top: -6px;
+}
+
+.header .nav.default .participa {
+    color: #00000080;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 590px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 3px;
+    width: 84px;
+}
