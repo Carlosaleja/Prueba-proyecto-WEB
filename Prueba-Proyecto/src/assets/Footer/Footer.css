@@ -1,0 +1,162 @@
+.footer {
+    background-color: #c8e4b2;
+    height: 345px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.footer .derechos-reservados {
+    height: 104px;
+    left: 0;
+    position: absolute;
+    top: 241px;
+    width: 100%;
+}
+
+.footer .overlap-group {
+    background-color: #000000;
+    height: 104px;
+    position: relative;
+    width: 100%;
+}
+
+.footer .text-wrapper {
+    color: #ffffff;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+    width: 628px;
+}
+
+.footer .overlap {
+    height: 249px;
+    left: 0;
+    position: absolute;
+    top: -8px;
+    width: 100%;
+}
+
+.footer .rectangle {
+    background-color: #898b8a;
+    height: 241px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+}
+
+.footer .logo {
+    height: 242px;
+    left: 47px;
+    position: absolute;
+    top: 0;
+    width: 278px;
+}
+
+.footer .el-salvador {
+    height: 148px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 136px;
+}
+
+.footer .div {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 167px;
+    width: 274px;
+}
+
+.footer .texto {
+    height: 181px;
+    left: 451px;
+    position: absolute;
+    top: 54px;
+    width: 773px;
+}
+
+.footer .frame {
+    align-items: center;
+    border-color: #000000;
+    border-left-style: solid;
+    border-left-width: 2px;
+    display: flex;
+    gap: 10px;
+    height: 181px;
+    justify-content: center;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 320px;
+}
+
+.footer .nuestros-proyectos {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -9.5px;
+    margin-top: -13.5px;
+    position: relative;
+    width: fit-content;
+}
+
+.footer .span {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.footer .text-wrapper-2 {
+    font-size: 24px;
+}
+
+.footer .cont-ctanos-wrapper {
+    align-items: center;
+    border-color: #000000;
+    border-left-style: solid;
+    border-left-width: 2px;
+    display: flex;
+    gap: 10px;
+    height: 107px;
+    justify-content: center;
+    left: 371px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 402px;
+}
+
+.footer .cont-ctanos {
+    color: #000000;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -3.58px;
+    margin-top: -7.58px;
+    position: relative;
+    width: 372px;
+}

@@ -1,0 +1,34 @@
+.btn-solicitar {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px 30px;
+    position: relative;
+}
+
+.btn-solicitar .text-wrapper {
+    color: #113946;
+    font-family: "Quando-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-solicitar:hover {
+    background-color: #bca37f;
+    border: 2px solid;
+    border-color: #113946;
+}
+
+.btn-solicitar:hover .text-wrapper {
+    color: #ffffff;
+    margin-top: -2px;
+}
