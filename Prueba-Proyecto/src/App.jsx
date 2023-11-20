@@ -8,6 +8,8 @@ import Form_ayuda from "./pages/Inicio_/Inicio#Formadeayuda"
 import Solicitudes from "./pages/Solicitudes_/Solicitudes"
 import Pagina_error from "./pages/pagina_error/pagina_error"
 import Inicio_sesion from "./pages/Inicio_sesion/Inicio_sesion"
+import Registro_sesion from './pages/Registro_sesion/Registro_sesion'
+import Participa from './pages/Paticipa_/Participa'
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
                 <Route path ="/Solicitudes" element = {<Solicitudes/>} />
                 <Route path ="/*" element = {<Pagina_error/>} />
                 <Route path ="/Inicio_sesion" element = {<Inicio_sesion/>} />
+                <Route path ="/Registro_sesion" element = {<Registro_sesion/>} />
+                <Route path ="/Participa" element = {<Participa/>} />
+              
 
       </Routes>
     </div>
