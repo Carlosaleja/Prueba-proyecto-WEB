@@ -26,3 +26,11 @@
         -Find All
         -Find One By ID
     -crear cntrolador findOneById
+
+# TODO 07
+## validacion de rutas
+    -validacion manual
+        -middelwares funcion flecha una tars de otra 
+    -express validator
+    -reglas de EV
+    -Middleware de EV

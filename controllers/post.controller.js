@@ -7,6 +7,8 @@ controller.create = async (req, res, next) => {
     try {
         const{ title, description, image} = req.body;
 
+       
+
         const post = new Post({
             title: title,
             description: description,
@@ -15,7 +17,7 @@ controller.create = async (req, res, next) => {
 
         //comit de los cambios en la bace o actialziza los campos la funcion save
           const postSave = await post.save();
-        
+         
           //separando el errro interno del servidor con el errro creando el post
           if(!postSave){
             //conflicto
@@ -26,7 +28,7 @@ controller.create = async (req, res, next) => {
     } catch (error) {
 
         console.error(error);
-        return res.Status(500).Json({error: "Internar Server error"});
+        return res.status(500).json({error: "Internar Server error"});
         
     }
 }
@@ -62,6 +64,19 @@ controller.findOneById = async (req, res, next) => {
         console.error(error);
         return res.status(500).json({error: "Internar Server error"});
     }
+}
+
+controller.delateById = async (req, res, next) => {
+
+    try {
+            const{ identifier} = req.params;
+
+            const post = await Post.findByIdAndDelete();
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({error: "Internar Server error"});
+    }
+
 }
 
 module.exports = controller;
