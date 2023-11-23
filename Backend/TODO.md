@@ -34,3 +34,20 @@
     -express validator
     -reglas de EV
     -Middleware de EV
+
+
+
+
+# TODO 09
+## Implementacion de usuario
+-Modelo de usuario
+    -Atributos
+    -Manejo de password
+-Tools para token
+-registro e inicio de sesion
+-rutas que requieren token -middlewares de token
+ -Verificar en save y delete que el post sea del usuario
+ -Implementar toggle visibiity
+ -Implementar like y comentar
+
+ 

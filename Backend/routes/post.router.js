@@ -20,9 +20,13 @@ router.get("/:identifier",
     postController.findOneById);            //genera el post
 
 
-router.post("/",
+router.post(["/","/:identifier"],
     createPostValidator,               //valida las condiciones
     validateFilds,                     //valida y retorna si hay algun erro
-    postController.create);            //publica el post si no hay ningun error
+    postController.save);            //publica el post si no hay ningun error
+
+router.delete("/:identifier",
+    idInParamsValidator,
+    postController.delateById);
 
 module.exports = router;
