@@ -146,12 +146,6 @@ export const Registro_sesion = () => {
             </div>
           </div>
         </div>
-        <Footer
-          className="!absolute !left-0 !top-[800px]"
-          elSalvador="el-salvador-3-2.png"
-          nuestrosProyectosClassName="!mt-[-9.00px] !mb-[-5.00px]"
-          property1="default"
-        />
       </div>
     </div>
   );
