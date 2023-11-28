@@ -12,20 +12,6 @@ const userSchema = new Schema({
         unique: true
     },
 
-    //la pasword no tinee que ser un string por vulerabilidades
-    //se utilizara crypto que viene con express
-    hashedPassowrd: {
-        type: String,
-        require: true,
-    },
-
-    //desencriptador para comprar el hashedpasword
-    salt: {
-        type: String,
-    },
-
-
-
     dui: {
         type: String,
         trim: true,
@@ -38,15 +24,39 @@ const userSchema = new Schema({
     },
 
 
+
+    //la pasword no tinee que ser un string por vulerabilidades
+    //se utilizara crypto que viene con express
+    hashedPassowrd: {
+        type: String,
+        require: true,
+    },
+
+    
+    //desencriptador para comprar el hashedpasword
+    salt: {
+        type: String,
+    },
+    
+    tokens:{
+        type: [String],
+        default: []
+    },
+
+
+   
+
 }, { timestamps: true });
 
-
-userSchema.method = {
+// se declarda methods porque son 2 o mas methodos XD
+userSchema.methods = {
     encrypPassword: function (password) {
         if (!password) return "";
 
         try {
             const _password = crypto.pbkdf2Sync(
+
+                //constantes requeridas por la funcion crypto 
                 password,
                 this.salt,
                 1000, 64,
@@ -60,6 +70,7 @@ userSchema.method = {
             return ""
         }
     },
+
     makeSalt: function(){
         return crypto.randomBytes(16).toString("hex");
 
@@ -71,13 +82,16 @@ userSchema.method = {
 }
 
 userSchema
+.virtual("password")
+    // seteo de funciones para ahcer random todo 
+    .set(function(password = crypto.randomBytes(16).toString()) {
 
-    .virtual("password")
-    .set(function(password = crypto.randomBytes(16).toString){
-            this.salt = this.makeSalt();
-            this.hashedPassowrd = this.encrypPassword(password);
-            
+        this.salt = this.makeSalt();
+
+        this.hashedPassowrd = this.encrypPassword(password);
+
 
     });
+
 
 module.exports = Mongoose.model("User", userSchema);

@@ -1,11 +1,11 @@
 const Mongoose = require("mongoose");
 const debug = require('debug')("app:databace");
 
-const dbhost = process.env.DBHOST || "localhost";
-const dbport = process.env.DBPORT || "27017";
-const dbname = process.env.DBNAME || "feed-uca";
+//const dbhost = process.env.DBHOST || "localhost";
+//const dbport = process.env.DBPORT || "27017";
+//const dbname = process.env.DBNAME || "feed-uca";
 
-const dburi = process.env.DBURI || `mongodb://${dbhost}:${dbport}/${dbname}`;
+const dburi = process.env.DBURI;
 
 
 
